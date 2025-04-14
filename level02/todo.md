@@ -1,5 +1,3 @@
-Sure! Here's a **README** for the **Level03 Format String Exploit**:
-
 ---
 
 # Level03 Format String Exploit - README
