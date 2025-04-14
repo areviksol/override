@@ -1,7 +1,3 @@
-Yes, you're correct in your analysis! The approach you're describing leverages a buffer overflow vulnerability to overwrite the return address (`EIP` in x86 architecture) and redirect the program's execution to the `secret_backdoor()` function.
-
-Here's a breakdown of how the exploit would work step-by-step:
-
 ### 1. **Understanding the Buffer Overflow**
 - In the `set_username` function, the username is stored in the `s[16]` buffer (with 16 bytes allocated for it). However, the program attempts to copy user input into memory locations that are far beyond this buffer (at offset `0x8c` from `arg1`, which is passed to the function).
 - This creates the opportunity to overflow the buffer and overwrite memory past the `s[16]` buffer.
