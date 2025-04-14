@@ -1,5 +1,3 @@
-Let's break down what's happening here step-by-step and why this exploit works. 🔥
-
 ---
 
 ### 🔍 **Overview of the Vulnerability**
