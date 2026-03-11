@@ -2,6 +2,26 @@
 
 General workspace for the 42 `OverRide` project.
 
+## Project Overview
+
+OverRide is a security training project where each level contains a vulnerable binary that must be analyzed and exploited in order to retrieve a token (flag) and progress to the next level.
+
+The project focuses on:
+
+Binary exploitation
+
+Reverse engineering
+
+Buffer overflows
+
+Privilege escalation
+
+Understanding program memory layout
+
+Exploit development
+
+Each level requires analyzing the binary, identifying the vulnerability, and crafting an exploit to gain access to the next level.
+
 ## About
 
 This repository stores notes, code, and exploit artifacts for each level.
